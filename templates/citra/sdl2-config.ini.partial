@@ -1,0 +1,26 @@
+# Citra / Citra MMJ — 3DS Controller Config
+# Merge into: citra-emu/config/sdl2-config.ini
+# Only the [Controls] section shown. Merge with existing file.
+#
+# Binding format: "engine:sdl,joystick:{index},button:{id}"
+# D-pad: "engine:sdl,joystick:{index},hat:{id},direction:{dir}"
+# Analog: "axis_x:{id},engine:sdl,joystick:{index},axis_y:{id}"
+
+[Controls]
+button_a="engine:sdl,joystick:0,button:1"
+button_b="engine:sdl,joystick:0,button:0"
+button_x="engine:sdl,joystick:0,button:3"
+button_y="engine:sdl,joystick:0,button:2"
+button_up="engine:sdl,joystick:0,hat:0,direction:up"
+button_down="engine:sdl,joystick:0,hat:0,direction:down"
+button_left="engine:sdl,joystick:0,hat:0,direction:left"
+button_right="engine:sdl,joystick:0,hat:0,direction:right"
+button_l="engine:sdl,joystick:0,button:4"
+button_r="engine:sdl,joystick:0,button:5"
+button_start="engine:sdl,joystick:0,button:7"
+button_select="engine:sdl,joystick:0,button:6"
+button_zl="engine:sdl,joystick:0,button:8"
+button_zr="engine:sdl,joystick:0,button:9"
+button_home=
+circle_pad="axis_x:0,engine:sdl,joystick:0,axis_y:1"
+c_stick="axis_x:3,engine:sdl,joystick:0,axis_y:4"

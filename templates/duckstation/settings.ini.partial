@@ -1,0 +1,62 @@
+# DuckStation — PS1 Controller Config
+# Merge into: Android/data/com.github.stenzek.duckstation/files/settings.ini
+# Only the [Pad] sections shown. Merge with existing file, don't replace it.
+#
+# Binding format: SDL-{device_index}/{ButtonOrAxisName}
+# Axes use + or - prefix for direction
+
+[Pad1]
+Type = AnalogController
+Up = SDL-0/DPadUp
+Down = SDL-0/DPadDown
+Left = SDL-0/DPadLeft
+Right = SDL-0/DPadRight
+Triangle = SDL-0/ButtonY
+Circle = SDL-0/ButtonB
+Cross = SDL-0/ButtonA
+Square = SDL-0/ButtonX
+Select = SDL-0/Back
+Start = SDL-0/Start
+L1 = SDL-0/LeftShoulder
+L2 = SDL-0/+LeftTrigger
+R1 = SDL-0/RightShoulder
+R2 = SDL-0/+RightTrigger
+L3 = SDL-0/LeftStick
+R3 = SDL-0/RightStick
+Analog = SDL-0/Guide
+LLeft = SDL-0/-LeftX
+LRight = SDL-0/+LeftX
+LUp = SDL-0/-LeftY
+LDown = SDL-0/+LeftY
+RLeft = SDL-0/-RightX
+RRight = SDL-0/+RightX
+RUp = SDL-0/-RightY
+RDown = SDL-0/+RightY
+
+[Pad2]
+Type = AnalogController
+Up = SDL-1/DPadUp
+Down = SDL-1/DPadDown
+Left = SDL-1/DPadLeft
+Right = SDL-1/DPadRight
+Triangle = SDL-1/ButtonY
+Circle = SDL-1/ButtonB
+Cross = SDL-1/ButtonA
+Square = SDL-1/ButtonX
+Select = SDL-1/Back
+Start = SDL-1/Start
+L1 = SDL-1/LeftShoulder
+L2 = SDL-1/+LeftTrigger
+R1 = SDL-1/RightShoulder
+R2 = SDL-1/+RightTrigger
+L3 = SDL-1/LeftStick
+R3 = SDL-1/RightStick
+Analog = SDL-1/Guide
+LLeft = SDL-1/-LeftX
+LRight = SDL-1/+LeftX
+LUp = SDL-1/-LeftY
+LDown = SDL-1/+LeftY
+RLeft = SDL-1/-RightX
+RRight = SDL-1/+RightX
+RUp = SDL-1/-RightY
+RDown = SDL-1/+RightY

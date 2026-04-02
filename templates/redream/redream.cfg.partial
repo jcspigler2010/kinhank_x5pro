@@ -1,0 +1,16 @@
+# Redream Dreamcast Controller Config
+# Merge into: Android/data/io.recompiled.redream/files/redream.cfg
+#
+# Profile format: hwid:{device},btna:{key},btnb:{key},...
+# input0-input3 assign profiles to Dreamcast ports 1-4
+# Device IDs (sdl0, sdl1, etc.) will need updating from diagnostics
+#
+# Only the controller-relevant lines are shown. Merge with existing file.
+
+input0: profile0
+input1: profile1
+input2: profile2
+input3:
+profile0: hwid:sdl0,btna:joy0,btnb:joy1,btnx:joy2,btny:joy3,start:joy10,dup:hat0u,ddown:hat0d,dleft:hat0l,dright:hat0r,-joyy:axis1-,+joyy:axis1+,-joyx:axis0-,+joyx:axis0+,ltrig:axis4+,rtrig:axis5+
+profile1: hwid:sdl1,btna:joy0,btnb:joy1,btnx:joy2,btny:joy3,start:joy10,dup:hat0u,ddown:hat0d,dleft:hat0l,dright:hat0r,-joyy:axis1-,+joyy:axis1+,-joyx:axis0-,+joyx:axis0+,ltrig:axis4+,rtrig:axis5+
+profile2: hwid:sdl2,btna:joy0,btnb:joy1,btnx:joy2,btny:joy3,start:joy10,dup:hat0u,ddown:hat0d,dleft:hat0l,dright:hat0r,-joyy:axis1-,+joyy:axis1+,-joyx:axis0-,+joyx:axis0+,ltrig:axis4+,rtrig:axis5+
